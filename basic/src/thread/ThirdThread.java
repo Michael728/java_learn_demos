@@ -13,7 +13,7 @@ import java.util.concurrent.FutureTask;
 public class ThirdThread {
     public static void main(String[] args) {
         ThirdThread rt = new ThirdThread();
-//        这里使用 lambda 表达式直接创建了 Callable 对象
+//        这里使用 oop.lambda 表达式直接创建了 Callable 对象
 //        FutureTask<Integer> task = new FutureTask<Integer>((Callable<Integer>) () -> {
 //            int i = 0;
 //            for (; i < 100; i++) {
